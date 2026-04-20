@@ -8,7 +8,7 @@ class Mahasiswa {
     float nilai;
 
     void printData (){
-        
+
         cout << " Nim : " << nim << endl;
         cout << " Nama : " << nama << endl;
         cout << " Nilai : " << nilai << endl;
@@ -20,5 +20,9 @@ class Mahasiswa {
 
 int main()
 {
+    Mahasiswa mhs;
+    mhs.nim = 2025;
+    mhs.nama = "sheriell";
+    mhs.nilai = 90.5;
 
 }
