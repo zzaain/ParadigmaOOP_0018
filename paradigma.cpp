@@ -25,4 +25,5 @@ int main()
     mhs.nama = "sheriell";
     mhs.nilai = 90.5;
 
+    mhs.printData ();
 }
