@@ -6,10 +6,6 @@ class Barang{
     string nama;
     int jumlah;
     string kategori;
-    
+    string tanggalProduksi;
 }
 
-int main ()
-{
-
-}
