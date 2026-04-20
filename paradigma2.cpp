@@ -5,9 +5,9 @@ class Barang{
     public:
     string nama;
     int jumlah;
+    string kategori;
     
-}; // batas class
-
+}
 
 int main ()
 {
