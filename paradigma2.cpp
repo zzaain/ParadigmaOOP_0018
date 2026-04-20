@@ -17,3 +17,23 @@ class Barang{
         
     }
 }; // batas class
+
+int main()
+{ 
+    Barang elektronik;
+    elektronik.nama = " Smart Watch";
+    elektronik.jumlah = 4;
+    elektronik.kategori = "Elektronik";
+    elektronik.tanggalProduksi = "2026-04-05";
+    
+    Barang nonElektronik;
+    nonElektronik.nama = " Meja ";
+    nonElektronik.jumlah = 10;
+    nonElektronik.kategori = "Non Elektronik";
+    nonElektronik.tanggalProduksi = "2026-04-03";
+
+    elektronik.printData();
+    nonElektronik.printData();
+}
+
+
